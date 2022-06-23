@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from 'axios'
-import WeatherCard from '../../components/WeatherCard/WeatherCard'
+import WeatherCard from "../../components/Weather/WeatherCard";
 
 import './Tiempo.css'
 
