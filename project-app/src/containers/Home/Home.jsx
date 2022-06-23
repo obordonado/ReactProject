@@ -1,11 +1,11 @@
 import React from "react";
-import img from '../../../public/1366_2000.jpg'
 import './Home.css'
 
 const Home = props => {
     return (
         <div className="Home">
-            <img src={img} />
+            {/* <img src={img} /> */}
+            HOME
         </div>
     )
 }

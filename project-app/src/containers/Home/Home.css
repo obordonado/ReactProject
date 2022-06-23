@@ -1,5 +1,8 @@
 
-.Home img {
-    width: 100%;
+.Home {
+    width: 70%;
     height: 84vh;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
 }
