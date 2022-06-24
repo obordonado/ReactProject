@@ -1,13 +1,17 @@
 
 import React from "react";
-import { NavLink } from "react-router-dom"
-import "./Header.css"
+import { NavLink } from "react-router-dom";
+import "./Header.css";
+import "../../../public/MOVIES+HEADER.png";
 
 const Header = props => {
     return (
         <div className="Header">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/tiempo">El tiempo</NavLink>
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+
         </div>
     )
 }

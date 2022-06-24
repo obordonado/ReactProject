@@ -1,8 +1,12 @@
 import React from 'react';
+import { NavLink } from "react-router-dom"
 
 function Menu() {
   return (
-    <div className='menu'>Menu</div>
+    <div className='menu'>
+           
+    </div>
+
   )
 }
 

@@ -5,7 +5,10 @@ import './Footer.css'
 const Footer = props => {
     return (
         <div className="Footer">
-            FOOTER
+             <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
+            <img className="img-header" src="../../../public/MOVIES+HEADER.png" />
         </div>
     )
 }

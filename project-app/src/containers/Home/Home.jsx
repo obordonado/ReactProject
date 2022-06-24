@@ -1,11 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
+
 import './Home.css'
 
 const Home = props => {
     return (
         <div className="Home">
-            {/* <img src={img} /> */}
-            HOME
+            {/* <div><NavLink to="/">Home</NavLink></div>
+            <div><NavLink to="/tiempo">El tiempo</NavLink></div>
+
+            HOME */}
         </div>
     )
 }
