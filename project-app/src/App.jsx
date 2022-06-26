@@ -11,13 +11,14 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
+        
         <Header/>
+        
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/tiempo" element={<Tiempo/>}/>
         </Routes>
-        <div className='center'>
-        </div>
+
       </BrowserRouter>
 
  
