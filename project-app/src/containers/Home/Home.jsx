@@ -6,10 +6,8 @@ import './Home.css'
 const Home = props => {
     return (
         <div className="Home">
-            {/* <div><NavLink to="/">Home</NavLink></div>
-            <div><NavLink to="/tiempo">El tiempo</NavLink></div>
+            <img className="pantallaCine" src="../../../public/pantalla.jpg" alt="Pantalla-cine" />
 
-            HOME */}
         </div>
     )
 }

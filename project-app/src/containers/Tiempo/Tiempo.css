@@ -1,8 +1,10 @@
 
 .Tiempo {
     min-height: 84vh;
+    /* width: 50vw; */
     height: fit-content;
     display: flex;
+    justify-content: right;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
