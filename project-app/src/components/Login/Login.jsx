@@ -15,7 +15,7 @@ function Login() {
         </div>
         <div className="row mb-3">
           <label for="inputPassword3" class="col-sm-2 col-form-label">
-            Password
+            Contraseña
           </label>
           <div className="col-sm-10">
             <input
@@ -34,7 +34,7 @@ function Login() {
           </div>
         </div>
         <button type="submit" className="btn btn-primary">
-          Sign in
+          Ingresar
         </button>
       </form>
     </div>

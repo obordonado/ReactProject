@@ -17,20 +17,21 @@ const Navbar = () => {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
  
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            M e n u
-          </a>
+
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
             <li><NavLink className="navlink" to="../Login">Login</NavLink></li>
             <li><hr className="dropdown-divider"></hr></li>
-            <li><NavLink className="navlink" to="/tiempo">Tarjetas</NavLink></li>
-            <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
+            <li><NavLink className="navlink" to="/register">Register</NavLink></li>
+            <li><NavLink className="navlink" to="/tiempo">Endpoint</NavLink></li>
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
 
           </ul>
         </li>  
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            M e n u
+          </a>
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
