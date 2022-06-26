@@ -22,9 +22,9 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
-            <li><NavLink className="navlink" to="/tiempo">Login</NavLink></li>
+            <li><NavLink className="navlink" to="../Login">Login</NavLink></li>
             <li><hr className="dropdown-divider"></hr></li>
-            <li><NavLink className="navlink" to="/">Tarjetas</NavLink></li>
+            <li><NavLink className="navlink" to="/tiempo">Tarjetas</NavLink></li>
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
             <li><NavLink className="navlink" to="/">Inicio</NavLink></li>
