@@ -17,13 +17,16 @@ const Home = props => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="image" src="../../../public/matrix.jpg" class="d-block w-100" alt="matrix"></img>
+      <img className="image" src="../../../public/alien.jpg" class="d-block w-100" alt="matrix"></img>
     </div>
     <div className="carousel-item">
-      <img className="image" src="../../../public/dune.jpeg" class="d-block w-100" alt="dune"></img>
+      <img className="image" src="../../../public/batman.jpg" class="d-block w-100" alt="dune"></img>
     </div>
     <div className="carousel-item">
-      <img className="image" src="../../../public/avp.jpg" class="d-block w-100" alt="avp"></img>
+      <img className="image" src="../../../public/jaws.jpg" class="d-block w-100" alt="dune"></img>
+    </div>
+    <div className="carousel-item">
+      <img className="image" src="../../../public/bttf.jpg" class="d-block w-100" alt="avp"></img>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

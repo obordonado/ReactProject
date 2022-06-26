@@ -4,14 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-/* .carousel-inner > .item > img {
-    width:100px;
-    height:100px;
-  } */
-  .carousel-item{
-    width: 15em;
-    height: 15em;
-    margin-bottom: 10em;
+
+.carousel-item{
+    width: 10em;
+    height: 10em;
+    margin-bottom: 7em;
   }
