@@ -1,4 +1,7 @@
 
 .Home{
     background-image: url(../../..pantallaCine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

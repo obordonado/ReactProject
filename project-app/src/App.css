@@ -9,5 +9,13 @@
   justify-content: space-between;
   background-image: url(../public/pantalla.jpg);
   background-size: cover;
+}
 
+.carousel-inner > .item > img {
+  width:100px;
+  height:100px;
+}
+.image{
+  width: 35em;
+  height: 25em;
 }
